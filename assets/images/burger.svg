@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg class="yii-icon burger" viewBox="0 0 50 50" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+	<style type="text/css">.yii-icon.burger * { fill: none; stroke: #ffffff; stroke-linecap: round; }</style>
+	<line class="_0" x1="11.96" y1="17.1" x2="14.51" y2="17.1"/>
+	<line class="_1" x1="18" y1="17.1" x2="37.96" y2="17.1"/>
+	<line class="_2" x1="11.96" y1="24.98" x2="14.51" y2="24.98"/>
+	<line class="_3" x1="18" y1="24.98" x2="37.96" y2="24.98"/>
+	<line class="_4" x1="11.96" y1="32.66" x2="14.51" y2="32.66"/>
+	<line class="_5" x1="18" y1="32.66" x2="37.96" y2="32.66"/>
+</svg>

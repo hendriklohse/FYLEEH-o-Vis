@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg class="yii-icon image" viewBox="0 0 50 50" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+	<style type="text/css">.yii-icon.image * { fill: none; stroke: #ffffff; stroke-linecap: round; }</style>
+	<rect class="_0" x="10.53" y="13.63" width="28.94" height="22.74"/>
+	<line class="_1" x1="13.63" y1="33.19" x2="22.29" y2="25.75"/>
+	<line class="_2" x1="28.03" y1="31.2" x2="22.29" y2="25.75"/>
+	<circle class="_3" cx="18.31" cy="20.62" r="2.16"/>
+	<line class="_4" x1="32.37" y1="18.36" x2="34.37" y2="21.69"/>
+	<line class="_5" x1="32.37" y1="18.36" x2="30.37" y2="21.69"/>
+	<line class="_6" x1="32.37" y1="27.19" x2="32.37" y2="18.77"/>
+</svg>

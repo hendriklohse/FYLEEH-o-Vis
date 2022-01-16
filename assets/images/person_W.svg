@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg class="yii-icon account" viewBox="0 0 50 50" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+	<style type="text/css">.yii-icon.account * { fill: none; stroke: #ffffff; stroke-linecap: round; }</style>
+	<path class="_0" d="M14,39.95c0-7.2,4.92-13.03,11-13.03s11,5.84,11,13.03"/>
+	<ellipse class="_1" cx="24.8" cy="19.97" rx="6.15" ry="6.17"/>
+</svg>

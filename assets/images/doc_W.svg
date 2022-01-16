@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg class="yii-icon doc" viewBox="0 0 50 50" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+	<style type="text/css">.yii-icon.doc * { fill: none; stroke: #ffffff; stroke-linecap: round; }</style>
+	<polygon class="_0" points="15.36,10.57 30.14,10.57 30.14,16.15 34.64,16.15 34.64,38.94 34.64,39.43 15.36,39.43 	"/>
+	<path class="_1" d="M17.65,16.24c0.2,0,1.96,0,1.96,0"/>
+	<line class="_2" x1="17.65" y1="18.69" x2="20.78" y2="18.69"/>
+	<path class="_3" d="M17.65,23.19"/>
+	<path class="_4" d="M20.78,23.19"/>
+	<path class="_5" d="M29.74,23.19"/>
+	<line class="_6" x1="19.61" y1="23.19" x2="17.65" y2="23.19"/>
+	<line class="_7" x1="21.39" y1="23.19" x2="28.39" y2="23.19"/>
+	<line class="_8" x1="30.37" y1="23.19" x2="32.52" y2="23.19"/>
+	<path class="_9" d="M17.65,25.93"/>
+	<path class="_10" d="M20.78,25.93"/>
+	<path class="_11" d="M29.74,25.93"/>
+	<line class="_12" x1="19.61" y1="26.22" x2="17.65" y2="26.22"/>
+	<line class="_13" x1="21.39" y1="26.22" x2="28.39" y2="26.22"/>
+	<line class="_14" x1="30.37" y1="26.22" x2="32.52" y2="26.22"/>
+	<path class="_15" d="M17.65,29.26"/>
+	<path class="_16" d="M20.78,29.26"/>
+	<path class="_17" d="M29.74,29.26"/>
+	<line class="_18" x1="19.61" y1="29.26" x2="17.65" y2="29.26"/>
+	<line class="_19" x1="21.39" y1="29.26" x2="28.39" y2="29.26"/>
+	<line class="_20" x1="30.37" y1="29.26" x2="32.52" y2="29.26"/>
+	<line class="_21" x1="30.37" y1="10.57" x2="34.64" y2="15.85"/>
+</svg>

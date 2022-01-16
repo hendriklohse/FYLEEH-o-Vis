@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg class="yii-icon power" viewBox="0 0 50 50" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+	<style type="text/css">.yii-icon.power * { fill: none; stroke: #ffffff; stroke-linecap: round; }</style>
+	<path class="_0" d="M30.32,16.68c3.16,1.83,5.28,5.25,5.28,9.17c0,5.85-4.74,10.59-10.59,10.59S14.41,31.7,14.41,25.84 c0-3.94,2.15-7.38,5.34-9.2"/>
+	<line class="_1" x1="25" y1="13.56" x2="25" y2="25.58"/>
+</svg>

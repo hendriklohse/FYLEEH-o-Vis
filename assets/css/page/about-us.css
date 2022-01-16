@@ -1,0 +1,183 @@
+.header .left .info {
+	opacity:0;
+	pointer-events:none;
+}
+
+.page .content {
+    margin: unset;
+    width: 100vw;
+    height: calc(100vh - 50px);
+    box-shadow: unset;
+    background: unset;
+}
+
+.page * {
+	pointer-events: none;
+}
+
+.about-us-page .title {
+    font-size: 60px !important;
+    color: #000000;
+    font-weight: bold !important;
+    text-align: center;
+    margin-top: 110px;
+}
+
+.about-us-page .cards {
+    width: calc(100% - 100px);
+    height: 310px;
+    margin: 50px;
+    margin-top: calc(50vh - 310px);
+    position: absolute;
+}
+
+.about-us-page .cards * {
+	pointer-events: all;
+}
+
+.about-us-page .card {
+    height: 100%;
+    width: 15%;
+    margin-right: 2%;
+    float: left;
+    background: white;
+    border-radius: 5px;
+    overflow: hidden;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.2);
+    position: relative;
+}
+
+.about-us-page .card * {
+	transition: 0.4s;
+}
+
+.about-us-page .color-box {
+    height: 120px;
+    width: 100%;
+    background: linear-gradient(45deg, #165c73, #30b8a6);
+    margin-bottom: -120px;
+    z-index: 1;
+    position: absolute;
+}
+
+.about-us-page .plus {
+    height: 1px;
+    width: 16px;
+    margin: 20px;
+    padding: 17.5px 10px;
+    float: right;
+    z-index: 9;
+    position: absolute;
+    right: 0;
+    cursor: pointer;
+}
+
+.about-us-page .picture {
+    height: 100px;
+    width: 100px;
+    border: 4px solid #FFFFFF;
+    margin: 0px calc(50% - 53px);
+    margin-top: 65px;
+    border-radius: 50%;
+    background: #bedfda;
+    box-shadow: 0px 0px 20px #00000038;
+    position: relative;
+    overflow: hidden;
+    z-index: 2;
+    position: relative;
+}
+
+.about-us-page .picture img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.about-us-page .name {
+    text-align: center;
+    margin-top: 30px;
+    color: #000000;
+    font-size: 21px !important;
+    z-index: 3;
+    position: absolute;
+    width: 100%;
+    top: 175px;
+}
+
+.about-us-page .role {
+    text-align: center;
+    margin-top: 15px;
+    color: #8da3aa;
+    font-weight: bold !important;
+    font-size: 14px !important;
+    z-index: 3;
+    position: absolute;
+    width: 100%;
+    top: 230px;
+}
+
+.about-us-page .desc {
+    opacity: 0;
+    z-index: 3;
+    position: absolute;
+    color: #FFFFFF;
+    bottom: -50px;
+    text-align: center;
+    margin-left: 10px;
+    margin-right: 10px;
+    height: 130px;
+}
+
+.about-us-page .card:last-child {
+    margin-right: unset;
+}
+
+.about-us-page .plus:after, .about-us-page .plus:before {
+    width: 16px;
+    height: 2px;
+    background-color: white;
+    content: '';
+    position: absolute;
+    border-radius: 4px;
+    transition: all 0.4s ease;
+}
+
+.about-us-page .plus:after {
+    transform: rotate(90deg);
+}
+
+/* --------- ACTIVE STYLE --------- */
+.about-us-page .card.active .plus {
+    transform: rotate(45deg);
+}
+
+.about-us-page .card.active .picture {
+    border-radius: 0%;
+    border: 0px solid white;
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    opacity: 0.2;
+    margin-bottom: -100%;
+}
+
+.about-us-page .card.active .color-box {
+    height: 310px !important;
+    margin-bottom: -310px !important;
+}
+
+.about-us-page .card.active .name {
+    color: #FFFFFF;
+    top: 65px;
+}
+
+.about-us-page .card.active .role {
+    color: #FFFFFF;
+    top: 115px;
+}
+
+.about-us-page .card.active .desc {
+    opacity: 1;
+    bottom: 0px;
+    transition: 1.5s;
+}

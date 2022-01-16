@@ -1,0 +1,160 @@
+/* page */
+.page {
+    float: left;
+    width: 100%;
+    min-height: calc(100vh - 50px);
+	margin-top: 50px;
+    pointer-events: none;
+}
+
+.page .content {
+    background: white;
+    box-shadow: 0px 0px 20px rgba(22, 92, 115, 0.2);
+    height: calc(100vh - 150px);
+    width: calc(100vw - 100px);
+    margin: 50px;
+    overflow: hidden;
+}
+
+.page * {
+    pointer-events: all;
+}
+
+.yii-download {
+    line-height: 50px !important;
+    margin-bottom: -50px;
+    width: 100%;
+    text-align: center;
+    opacity: 0.3;
+    transition: 0.5s 0.5s;
+}
+
+.yii-download-as-image {
+    float: left;
+    width: 100%;
+    height: 50px;
+    margin-top: -50px;
+}
+
+.yii-download-as-image a {
+    line-height: 50px !important;
+    text-align: center;
+    display: block;
+    cursor: pointer;
+    margin: auto;
+    width: 110px;
+    opacity: 0.3;
+    transition: 0.5s 0.5s;
+}
+
+.yii-download:hover, .yii-download-as-image a:hover {
+    opacity: 1;
+}
+
+/* no-data */
+.no-data {
+	pointer-events: none;
+}
+
+.here-reset {
+    text-decoration: underline;
+}
+
+.no-data .title {
+    float: left;
+    width: 64%;
+    text-align: right;
+    margin-top: 34vh;
+    margin-bottom: 65px;
+    margin-left: 31%;
+    margin-right: 5%;
+    line-height: 100px;
+    color: #165c73;
+    font: normal 60px 'ConsolasB' !important;
+    pointer-events: none;
+}
+
+.no-data .text {
+    margin: 0 auto;
+    margin-bottom: 50px;
+    margin-left: 55%;
+    margin-right: 5%;
+    color: #165c73;
+    width: 40%;
+    float: right;
+    text-align: right;
+    pointer-events: none;
+}
+
+.no-data .text * {
+    font-size: 21px !important;
+}
+
+
+/* compare */
+body.iframe .page {
+    margin: unset;
+    min-height: 100vh;
+}
+
+body.iframe .page.overview .content {
+    height: 100vh;
+}
+
+body.iframe .page .content {
+    height: calc(100vh - 100px);
+}
+
+body.iframe .header, body.iframe .subheader, body.iframe .reload, body.iframe .sidemenu, body.iframe .yii-background, body.iframe .datadrop {
+    display: none;
+}
+
+iframe {
+    float: left;
+    border: 0;
+}
+
+iframe._1 {
+    width: 100%;
+    height: 100%;
+}
+
+iframe._2 {
+    width: calc(50% - 0.5px);
+    height: 100%;
+}
+
+iframe._2:nth-child(1) {
+	border-right: 1px solid #000000;
+}
+
+iframe._3 {
+    height: calc(50% - 0.5px);
+}
+
+iframe._3:nth-child(1), iframe._3:nth-child(2) {
+    width: calc(50% - 0.5px);
+	border-bottom: 1px solid #000000;
+}
+
+iframe._3:nth-child(1) {
+	border-right: 1px solid #000000;
+}
+
+iframe._3:nth-child(3) {
+    width: 100%;
+}
+
+iframe._4 {
+    width: calc(50% - 0.5px);
+    height: calc(50% - 0.5px);
+}
+
+iframe._4:nth-child(1), iframe._4:nth-child(3) {
+	border-right: 1px solid #000000;
+}
+
+iframe._4:nth-child(1), iframe._4:nth-child(2) {
+	border-bottom: 1px solid #000000;
+}
+

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg class="yii-icon info" viewBox="0 0 50 50" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+	<style type="text/css">.yii-icon.info * { fill: none; stroke: #ffffff; stroke-linecap: round; }</style>
+	<line class="st0" x1="25" y1="18.23" x2="25" y2="16.82"/>
+	<line class="st0" x1="25" y1="33.82" x2="25" y2="22"/>
+	<circle class="st0" cx="25.04" cy="24.98" r="15.5"/>
+</svg>

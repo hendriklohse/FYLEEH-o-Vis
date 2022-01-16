@@ -1,0 +1,16 @@
+/*
+Theme Name: FYLEEH-o-Vis
+Theme URI: https://yipisit.ondernemerscoach-dekempen.nl/
+Author: Frank Nutseling, Yip van Ginkel, Latisha Boor, Esmee Bellemakers, Ece Zeynep Akdemir and Hendrik Lohse
+Description: A visualization tool which can be used for data analysis on eye tracking data. Contains four types of visualisations, namely a heatmap, streamgraph, 3D line plot and a bar chart. The heatmap provides analysis on fixation points. The streamgraph can be used to inspect the number of fixation points in certain, self-selected, areas of interest. Patterns can be studied using the 3D line plot. And lastly, the bar chart provides statistics, such as minimum, maximum and average time, of the currently selected data. A sample dataset has already been uploaded to the site which may be used to study how the visualisations work. Own data (in the same format) can be uploaded to the site as well.
+Tags: visualization-tool, vis-tool, visualization, heatmap, streamgraph, 3D-line-plot, analysis, inspect, study, Patterns, barchart, data, dataset, upload
+Version: 1.1
+Requires at least: 1.0
+Tested up to: 1.1
+Requires PHP: 7.0
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Text Domain: fyleeh-o-vis
+This theme, like WordPress, is licensed under the GPL.
+Use it to visualize something cool, have fun, and share what you've learned with others.
+*/

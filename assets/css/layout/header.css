@@ -1,0 +1,518 @@
+/* header */
+.header {
+    float: left;
+    width: 100%;
+    background: #30B8A6;
+    height: 50px;
+    position: fixed;
+    z-index: 999999;
+    box-shadow: 0px 0px 20px rgba(22, 92, 115, 0.5);
+}
+
+.header > div > *:active {
+    background: #165c73;
+}
+
+@keyframes rotate {
+  0% {		transform: rotate(0deg);	}
+  100% {	transform: rotate(360deg);	}
+}
+
+.header .left .info::before {
+    
+}
+
+.header > div > * {
+    transition: 0.2s;
+}
+
+.header .left {
+    float: left;
+    width: 300px;
+}
+
+.header .title {
+    display: inline-block;
+    width: calc(100% - 600px);
+    text-align: center;
+    line-height: 50px;
+    height: 50px;
+    overflow: hidden;
+}
+
+.header .title a {
+    display: block;
+    height: 100%;
+    width: 100px;
+    margin: auto;
+}
+
+.header .title img {
+    height: 40px;
+    margin: 5px;
+}
+
+input[type=file], input[type=file]::-webkit-file-upload-button {
+    cursor: pointer; 
+}
+
+.header .right {
+    float: right;
+    width: 300px;
+}
+
+.header .right > .no {
+	background: #cb273a;
+}
+
+.header .left > * {
+    float: left;
+    width: 50px;
+    height: 50px;
+    overflow: hidden;
+    cursor: pointer;
+    padding: 0px 20px;
+}
+
+.header > div > *:empty::before {
+	opacity: 0.2;
+    cursor: not-allowed;
+}
+
+.header > div > .info:empty::before {
+    opacity: 1;
+}
+
+.header .left form {
+    width: 50px;
+    height: 50px;
+    float: left;
+}
+
+.header .left form > * {
+    pointer-events: none;
+    opacity: 0;
+}
+
+.header .left form .yii-input {
+    pointer-events: all;
+    width: 100%;
+    height: 100%;
+}
+
+.header .left > *::before {
+    width: 50px;
+    height: 50px;
+    margin-bottom: -50px;
+    float: left;
+    pointer-events: none;
+}
+
+.header .right > * {
+    height: 50px;
+    padding: 0px 40px;
+    float: right;
+    cursor: pointer;
+    color: white;
+    line-height: 50px !important;
+}
+
+.header .right > .no.disabled {
+    background: unset;
+}
+
+.header .right *::before {
+    width: 50px;
+    height: 50px;
+    margin-bottom: -50px;
+    float: left;
+    pointer-events: none;
+}
+
+.header .right select {
+    border: unset;
+    background: #333333;
+    color: #ffffff;
+    height: 50px;
+    width: 100%;
+    cursor: pointer;
+    opacity: 0;
+}
+
+
+/* datadrop */
+.datadrop {
+    float: left;
+    width: 300px;
+    top: -500px;
+    right: 0;
+    background: rgba(48, 184, 166);
+    transition: 0.5s;
+    overflow: hidden;
+    height: 550px;
+    color: #ffffff;
+    position: fixed;
+    z-index: 999998;
+    overflow-y: auto;
+}
+
+.datadrop.active {
+    top: 50px;
+}
+
+.datadrop.subheader .upload .content > div > *:last-child {
+    padding: unset !important;
+    width: calc(100% - 100px);
+    overflow: hidden;
+    border: unset;
+}
+
+.datadrop.subheader .upload form {
+    float: left;
+    width: 100%;
+    height: 100%;
+}
+
+.datadrop.subheader .upload form::before {
+    content: "Select file";
+    display: block;
+    width: 100%;
+    height: 30px;
+    margin-bottom: -30px;
+    pointer-events: none;
+    text-align: center;
+    line-height: 30px;
+    color: #ffffff;
+    background: #165c73;
+}
+
+input[type=file] {
+    opacity: 0;
+    width: 100%;
+    height: 100%;
+}
+
+/* subheader */
+.subheader {
+    float: left;
+    width: 300px;
+    top: -500px;
+    right: 0;
+    background: rgba(48, 184, 166);
+    transition: 0.5s;
+    overflow: hidden;
+    height: 550px;
+    color: #ffffff;
+    position: fixed;
+    z-index: 999998;
+    overflow-y: auto;
+}
+
+.subheader.active {
+    top: 50px;
+}
+
+.subheader .filter {
+    float: left;
+    width: 100%;
+}
+
+.subheader .filter .title {
+    line-height: 50px !important;
+    font-family: 'ConsolasB' !important;
+    font-size: 21px !important;
+    color: #165c73;
+    padding: 0px 10px;
+    margin-bottom: -50px;
+    float: left;
+    background: #30b8a6;
+}
+
+.subheader .filter hr {
+    background: #165c73;
+    border: unset;
+    height: 2px;
+    width: auto;
+    margin: 24px 10px;
+}
+
+.subheader .content {
+    float: left;
+    width: calc(100% - 40px);
+    margin: 0px 20px;
+}
+
+.subheader .content > * {
+    margin-bottom: 10px;
+    float: left;
+    width: 100%;
+}
+
+.subheader .content > div .label {
+    float: left;
+    width: 100px;
+    line-height: 30px !important;
+    text-align: left;
+    color: #0a232b;
+    font-size: 14px !important;
+}
+
+.subheader .content > div > *:last-child {
+    float: left;
+    width: calc(100% - 100px);
+    line-height: 30px;
+    text-align: center;
+    color: #0a232b;
+    font-size: 14px !important;
+    height: 30px;
+    margin: 0px !important;
+    padding: 0px 0px 0px 10px !important;
+    border: 1px solid #000000;
+    text-align: left;
+}
+
+.subheader .content > div > input {
+    height: 28px !important;
+    line-height: 28px;
+    width: calc(100% - 112px) !important;
+}
+
+.subheader .content .button {
+    float: left;
+    border: unset;
+    background: #165c73;
+    color: #ffffff;
+    padding: 10px 0px;
+    cursor: pointer;
+    text-align: center;
+}
+
+.subheader .content .button.disabled {
+    opacity: 0.5;
+    pointer-events: none;
+}
+
+.subheader .content .button._3 {
+    width: 30%;
+}
+
+.subheader .content .button._3:nth-child(2) {
+    margin: 0px 5%;
+}
+
+.subheader .content .button._2 {
+    width: 45%;
+	
+}
+
+.subheader .content .button._2:first-child {
+    margin-right: 10%;
+}
+
+.subheader .content .labelsubsection {
+	font-weight: bold !important;
+ 	font-size: 16px !important;
+}
+
+.subheader .content .list {
+    height: 150px;
+    overflow-y: auto;
+    overflow-x: hidden;
+}
+
+.subheader .content .item.active::after {
+    content: url(https://yipisit.ondernemerscoach-dekempen.nl/wp-content/themes/fyleeh-o-vis/assets/images/cross_B.svg);
+}
+
+.subheader .content .item::after {
+    content: url(https://vanginkelschoonmaak.nl/wp-content/themes/yipisit/assets/images/icons/svg/arrow_W.svg);
+    width: 20px !important;
+    height: 20px !important;
+    float: right;
+    cursor: pointer;
+    margin-right: 0px;
+    transition: 0.2s;
+    opacity: 0;
+    transform: rotate(90deg);
+}
+
+.subheader .content .item:hover::after {
+    margin-right: 10px;
+    opacity: 1;
+}
+
+.subheader .content .item.active:hover * {
+    text-decoration: line-through;
+}
+
+.subheader .content .item {
+    line-height: 20px;
+    height: 20px;
+    cursor: pointer;
+}
+
+.subheader .content .item.active {
+    color: white;
+}
+.subheader .filter .content .list {
+    color: black;
+}
+
+.subheader .content .item div {
+    float: left;
+}
+
+.subheader .content .item:hover div {
+    text-decoration: underline;
+}
+
+
+/* Sidemenu */
+.sidemenu {
+    float: left;
+    width: 31%;
+    left: -31%;
+    background: rgba(48, 184, 166, 0.5);
+    transition: 0.5s;
+    overflow: hidden;
+    height: 51px;
+    color: #ffffff;
+    position: fixed;
+    top: 50px;
+    z-index: 999998;
+    height: calc(100vh - 50px);
+    overflow-y: auto;
+    pointer-events: none;
+}
+
+.sidemenu.active {
+    left: 0;
+}
+
+.sidemenu .options {
+    float: left;
+    width: 100%;
+    position: absolute;
+    bottom: calc(50% - 220px);
+    padding: 50px 0px;
+    background: linear-gradient(0, rgba(151, 219, 210, 0) 0%, rgba(151, 219, 210, 0.9) 10%, rgba(151, 219, 210, 0.9) 90%, rgba(151, 219, 210, 0.0) 100%);
+}
+
+.sidemenu .option:hover {
+    background: #165c73;
+    color: white;
+    transition: 0s;
+}
+
+.sidemenu .option {
+    float: left;
+    width: calc(100% - 70px);
+    display: block;
+    color: #165c73;
+    text-decoration: unset;
+    font-size: 21px !important;
+    pointer-events: all;
+    padding-left: 70px;
+    line-height: 50px !important;
+}
+
+.sidemenu .option:last-child {
+    margin: unset;
+}
+
+.sidemenu .image {
+    float: left;
+    width: 100%;
+}
+
+.sidemenu .image .inner-image {
+    margin: 100px calc(50% - 50px) calc(100vh - 750px) calc(50% - 50px);
+    width: 100px;
+    height: 100px;
+    background: #ffffff;
+    border-radius: 50%;
+}
+
+
+/* reload */
+.reload {
+    width: 204px;
+    height: 50px;
+    background: #2fd42f;
+    right: 0px;
+    top: 0px;
+    opacity: 0;
+    position: fixed;
+    text-align: center;
+    line-height: 50px !important;
+    z-index: 999997;
+    font-size: 21px !important;
+    color: white;
+    transition: top 0.5s, width 0.5s 0.5s;
+    cursor: pointer;
+}
+
+.reload.active {
+    opacity: 1;
+    top: 50px;
+}
+
+.reload.filter, .reload.datadrop {
+    top: 550px;
+    width: 300px;align-items;
+    transition: top 0.5s, width 0.5s;
+}
+
+.reload.filter.active, .reload.datadrop.active {
+    top: 600px;
+}
+
+
+
+@media only screen and (max-width: 599px) {
+.header {
+    height: 152px;
+}
+.header > * {
+    width: 100% !important;
+    border-bottom: 1px solid #ffffff;
+    float: left;
+}
+.header > *:last-child {
+    border: unset;
+}
+.header .left > *, .header .right > * {
+    width: calc((100% - 2px)/3) !important;
+}
+.header .left > *:last-child, .header .right > *:first-child {
+    border: unset;
+}
+.header .left > *::before, .header .right > *::before {
+    float: unset;
+    display: block;
+    margin: 0px auto -50px auto;
+}
+.header .left form {
+    width: 100%;
+}
+.header .home a {
+    float: left;
+    width: 100%;
+    height: 50px;
+}
+.header .home img, .header .filter img {
+    display: block;
+    width: 50px;
+    height: 50px;
+    margin: auto;
+}
+}
+
+
+
+
+
+
+
+
+

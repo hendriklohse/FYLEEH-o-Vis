@@ -1,0 +1,10 @@
+/* testpage4 */
+.page._4 .vis-3d .graph {
+    float: left;
+    width: 100%;
+    height: calc(100vh - 50px);
+}
+
+.page._4 .vis-3d .graph canvas {
+    cursor: all-scroll;
+}

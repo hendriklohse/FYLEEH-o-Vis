@@ -1,0 +1,21 @@
+.tooltip-sg {
+    position: fixed;
+    left: 0;
+    top: 0;
+    background: rgba(0,0,0,.8);
+    color: white;
+    font-size: 14px;
+    padding: 5px;
+    line-height: 18px;
+    opacity: 0;
+    transition: opacity 0.2s;
+}
+
+.tooltip-sg.active {
+	opacity: 1;
+}
+
+.vis-streamgraph svg {
+    float: left;
+    width: 100%;
+}

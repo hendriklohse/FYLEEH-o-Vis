@@ -1,0 +1,52 @@
+/* front */
+.page.front .text strong {
+	cursor: pointer;
+}
+
+.page.front .phrase {
+    float: left;
+    width: 64%;
+    text-align: right;
+    margin-top: 34vh;
+    margin-bottom: 65px;
+    margin-left: 31%;
+    margin-right: 5%;
+    line-height: 100px;
+    color: #165c73;
+    font: normal 60px 'ConsolasB' !important;
+    pointer-events: none;
+}
+
+.page.front .text, .page.front .text * {
+    display: block;
+    text-align: center;
+    line-height: 30px;
+    font-size: 21px !important;
+}
+
+.page.front .text {
+    margin: 0 auto;
+    margin-bottom: 50px;
+    margin-left: 55%;
+    margin-right: 5%;
+    color: #165c73;
+    width: 40%;
+    float: right;
+    text-align: right;
+    pointer-events: none;
+    font-size: 21px !important;
+}
+
+table#front-page {
+    background-color: #30B8A6;
+    margin-left: auto;
+    margin-right: auto;
+    border-color: #FFFFFF;
+    border-collapse: collapse;
+}
+
+table#front-page tr:nth-child(even) {
+    background-color: #FFFFFF;
+    text-align: center;
+    border-color: #30B8A6;
+}

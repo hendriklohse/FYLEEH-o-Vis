@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg class="yii-icon compare" viewBox="0 0 50 50" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+	<style type="text/css">.yii-icon.compare * { fill: none; stroke: #ffffff; stroke-linecap: round; stroke-miterlimit: 10; }</style>
+	<path class="st0" d="M27.43,33.04h-5.51c-2.77,0-5.01-2.24-5.01-5.01l0-11.92"/>
+	<polyline class="st0" points="24.68,36.04 27.43,33.04 24.68,30.04 	"/>
+	<path class="st0" d="M22.66,16.91h5.51c2.77,0,5.01,2.24,5.01,5.01l0,11.92"/>
+	<polyline class="st0" points="25.4,13.91 22.66,16.91 25.4,19.91 	"/>
+</svg>

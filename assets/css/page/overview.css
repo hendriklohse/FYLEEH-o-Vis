@@ -1,0 +1,80 @@
+/* Overview */
+.page.overview .content {
+    margin: unset;
+    width: 100vw;
+    height: calc(100vh - 50px);
+}
+
+.visualization .more {
+    float: left;
+    width: 20px;
+    height: 20px;
+    margin-bottom: -50px;
+    position: absolute;
+    right: 0;
+    opacity: 0.5;
+    z-index: 999;
+    background: #ffffff;
+    border-bottom: 1px solid #000000 !important;
+    border-left: 1px solid #000000 !important;
+}
+
+.visualization .more:hover {
+    opacity: 1;
+    border-bottom: 2px solid #000000 !important;
+    border-left: 2px solid #000000 !important;
+}
+
+.visualization {
+    overflow: hidden;
+    position: relative;
+    background: #ffffff;
+}
+
+.visualization.heatmap {
+    width: calc(50% - 1px);
+    border-right: 1px solid #333333;
+    height: calc(60vh - 26px);
+    border-bottom: 1px solid #333333;
+    float: left;
+}
+
+body.iframe .visualization.heatmap {
+    height: calc(60vh - 1px);
+}
+
+.visualization.line-plot {
+    width: calc(50% - 1px);
+    border-left: 1px solid #333333;
+    height: calc(50vh - 26px);
+    border-bottom: 1px solid #333333;
+    float: right;
+}
+
+body.iframe .visualization.line-plot {
+    height: calc(50vh - 1px);
+}
+
+.visualization.bar-chart {
+    width: calc(50% - 1px);
+    border-left: 1px solid #333333;
+    height: calc(50vh - 26px);
+    border-top: 1px solid #333333;
+    float: right;
+}
+
+body.iframe .visualization.bar-chart {
+    height: calc(50vh - 1px);
+}
+
+.visualization.streamgraph {
+    width: calc(50% - 1px);
+    border-right: 1px solid #333333;
+    height: calc(40vh - 26px);
+    border-top: 1px solid #333333;
+    float: left;
+}
+
+body.iframe .visualization.streamgraph {
+    height: calc(60vh - 1px);
+}

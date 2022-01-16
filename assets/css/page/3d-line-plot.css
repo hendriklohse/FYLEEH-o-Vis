@@ -1,0 +1,5 @@
+.vis-3d, .vis-3d .graph {
+    height: 100%;
+    width: 100%;
+	cursor: move;
+}
